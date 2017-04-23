@@ -1,0 +1,15 @@
+debtdeadline: 30
+hackerdetect: true
+intrestrate: .0375
+perdays: 7
+rankone: 1000
+ranktwo: 2000
+rankthree: 3000
+rankfour: 4000
+rankfive: 5000
+ranksix: 6000
+defaultamount: 500
+buttonadd1: 100
+buttonadd2: 1000
+buttonsubtract1: 100
+buttonsubtract2: 1000
