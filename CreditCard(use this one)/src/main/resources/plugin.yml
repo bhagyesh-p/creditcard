@@ -1,0 +1,69 @@
+name: CreditCard
+version: 1.0
+author: dogboy
+description: CreditCard
+main: com.dogboy602k.CreditCard.main.Main.Main
+commands:
+    CreditCard:
+        description: CreditCard command
+        permissison: creditcard.user.use
+        permission-message: you cannot use this command
+        usage: /<command> <player>
+
+permissions:
+    creditcard.use.pay:
+        description: Use to pay debt
+        default: op
+    creditcard.use.owe:
+        description: Use to see debt
+        default: op
+    creditcard.use.loan:
+        description: Use to loan
+        default: op
+    creditcard.use.reg:
+        description: Use to register
+        default: op
+    creditcard.use.gui:
+        description: Use to GUI
+        default: op
+    creditcard.use.loan.defaultamount:
+        description: Use to loan rank default
+        default: op
+    creditcard.use.loan.rankone:
+        description: Use to loan rank 1
+        default: op
+    creditcard.use.loan.ranktwo:
+        description: Use to loan rank 2
+        default: op
+    creditcard.use.loan.rankthree:
+        description: Use to loan rank 3
+        default: op
+    creditcard.use.loan.rankfour:
+        description: Use to loan rank 4
+        default: op
+    creditcard.use.loan.rankfive:
+        description: Use to loan rank 5
+        default: op
+    creditcard.use.loan.ranksix:
+        description: Use to loan rank 6
+        default: op
+    creditcard.use.auto:
+        description: auto pay loan
+        default: op
+    creditcard.use.forgot:
+        description: Find lost pin number
+        default: op
+    creditcard.admin.reload:
+            description: Reload the config files
+            default: op
+    creditcard.use.basic:
+        description: Use for basic commands
+        default: op
+        children:
+          creditcard.use.pay: true
+          creditcard.use.owe: true
+          creditcard.use.loan: true
+          creditcard.use.reg: true
+          creditcard.use.loan.defaultamount: true
+          creditcard.use.auto: true
+          creditcard.use.forgot: true

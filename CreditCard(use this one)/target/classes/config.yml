@@ -1,0 +1,87 @@
+# Here you can confiqure various setting for players to obide by
+# you can look at my tutorial if you need help
+# https://www.youtube.com/watch?v=p0b-JIqrCtE
+# https://www.youtube.com/watch?v=vUeSsbtX4E0&t=3s
+
+debtdeadline: 30
+hackerdetect: true
+intrestrate: .0375
+perdays: 7
+rankone: 1000
+ranktwo: 2000
+rankthree: 3000
+rankfour: 4000
+rankfive: 5000
+ranksix: 6000
+defaultamount: 500
+buttonadd1: 100
+buttonadd2: 1000
+buttonsubtract1: 100
+buttonsubtract2: 1000
+pointsrecived: 10
+pointsper: 1000
+maxpoints: 1000
+punishcommand: kill %player%
+
+# =====================[Custom messages]=====================
+# You can adjust the messages that are sent to players to your
+# liking and into any language, please do note for some
+# use these variables to help you
+# use %player% for player name
+# use %debt% for player debt amount
+# use %point% for player point amount
+# use %pointcost% for reward cost point amount
+# use %reward% for reward name
+# use %rewarddes% for reward description
+# use %bal% for balance
+# use %auto% for player auto pay amount
+# use %payamount% for player pay amount
+# use %maxloanable% for player max loanable amount
+# use %loanamount% for player requested loan amount
+# use %timeover% for days over the due deadline
+# use %daysLeft% for days left till the due deadline
+# use %timeover% for days over the due deadline
+
+#==============[IMPORTANT]==============
+# Since the custom msg system is new please do NOT add new
+# or remove variables from the msg, only replace the non
+# variables, if you do not there may be errors.
+# EXAMPLE:
+#  maxLoanReached: 'You have reached you max loan limit of : $%maxloanable%.'
+#  this is OK:   maxLoanReached: 'The limit of $%maxloanable% has been reached.'
+#  this is NOT OK:   maxLoanReached: '%player% have reached you max loan limit of : $%maxloanable%.'
+
+hasNotRegistered: 'You have not been registered, please register first, Thank You.'
+wrongPassword: 'The password you have entered is invalid.'
+alreadyRegisterd: 'You have a card already.'
+notEnoughCashtoPay: 'You did not have enough cash.'
+commandDidntSayAll: 'Error command did not say all'
+DebtCantBePaidItsZero: 'You can not pay any more your debt is : $0'
+payAmountLessThanZero: 'Your pay amount is less than 0'
+couldNotFindReward: 'Could not find that reward'
+loanLessthanZero:  'Loan amount less then 0'
+notEnoughPoints: 'You dont have enough points'
+wrongPin: 'You entered in the wrong pin.'
+payAmountOverDebt: 'Couldnt pay $%payamount% a but we paid $%debt% aka the rest of your debt.'
+maxPointsReached: 'Your new total points is the same, you have reached the max per day : $%point% '
+wantLoanLargerThanLimit: 'Loan amount is larger than your limit , your limit is: $%maxloanable%'
+dontHaveEnoughToPayAllDebt: 'You do not have %debt% in your account.'
+maxLoanReached: 'You have reached you max loan limit of : $%maxloanable%.'
+foundPin: 'HEY luckily the IT guys found you pin:'
+registered: 'You have been registered, your pin is:'
+youHaveZeroDebtpPayInZeroDays: 'You owe: $0  you have 0 day(s) to pay up'
+pleaseWait: 'Please wait a moment...'
+closedGUIMenu: 'You have closed the GUI menu'
+joinMSGNoDebt: 'You do not owe any debt'
+autoPayMSG: 'You payed %auto% automatically.'
+newTotalPoints: 'Your new total points is : $%point%'
+moneyIsBeingAdded: 'Money is being added to your account : $%loanamount%'
+overDeadLine: 'You are over the deadline date ,you now owe: $%debt% you are %timeover%  day(s) over'
+youOwnAmountInDays: 'You owe: $%debt% you have  %daysLeft% day(s) to pay up'
+howMuchIsPaidOff: '$ %payamount% has been paid off.'
+youHavePoints: 'You have ▶%point%◀ points'
+pointsYouCanGet: 'You can get %reward% for %pointcost% points'
+pointsDescription: 'Description: %rewarddes%'
+youGotReward: 'Congrats %player% you have received the reward of %reward% for %pointcost% points'
+joinMSG:  'You own $ %debt%'
+
